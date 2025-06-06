@@ -1,0 +1,15 @@
+git rm --cached register.html
+git commit -m "Remove register.html from repo"
+git push
+register.html
+.DS_Store
+Thumbs.db
+.vscode/
+*.log
+*.tmp
+*.swp
+.env
+git rm --cached register.html
+git add .gitignore
+git commit -m "Remove register.html and ignore it"
+git push
